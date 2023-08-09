@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cars">
+    <include layout="@layout/car_item"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/carsListView"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="650sp"/>
+
+        <Button
+            android:id="@+id/backToMain"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:backgroundTint="@color/white"
+            android:textColor="#000"
+            android:text="back To Main"
+            android:fontFamily="sans-serif-black" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

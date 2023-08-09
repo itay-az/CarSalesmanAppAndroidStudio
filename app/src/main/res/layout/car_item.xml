@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:background="@color/black">
+
+        <TextView
+            android:id="@+id/carName"
+            android:layout_width="150sp"
+            android:layout_height="70sp"
+            android:text="Car Name"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/carPrice"
+                android:layout_width="150sp"
+                android:layout_height="75sp"
+                android:text="Car Price"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/carImage"
+            android:layout_width="150sp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

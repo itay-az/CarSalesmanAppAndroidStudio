@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/range"
+    android:padding="20sp"
+    tools:context=".BuyNewCar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_editor_absoluteX="1dp"
+        app:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#fff"
+            android:text="Add A New Car"/>
+
+        <EditText
+            android:id="@+id/carNamelbl"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_marginTop="20sp"
+            android:hint="Car Name"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/carPricelbl"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_marginTop="20sp"
+            android:hint="Car Price"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/carDescriptionlbl"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_marginTop="20sp"
+            android:hint="Car Description"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/carImagelbl"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_marginTop="20sp"
+            android:hint="Car Image"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:id="@+id/AddCar"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:backgroundTint="#fff"
+            android:textColor="#000"
+            android:text="Add Car"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="60sp" />
+
+        <Button
+            android:id="@+id/backToMain"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:backgroundTint="#fff"
+            android:textColor="#000"
+            android:text="back To Main"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="20sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Item">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:id="@+id/carName"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"/>
+
+        <ImageView
+            android:id="@+id/carImageitem"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:id="@+id/carPrice"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:id="@+id/carDescription"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"/>
+
+        <LinearLayout
+            android:layout_margin="5sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100sp">
+
+            <Button
+                android:layout_margin="5sp"
+                android:id="@+id/btnDelete"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="Delete Car"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:layout_margin="5sp"
+                android:id="@+id/btnUpdate"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="Update Car"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
